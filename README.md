@@ -92,9 +92,10 @@ React는 Javascript의 코딩 컨벤션을 그대로 따라가며, html, css 부
 `env` 파일에서 URL 설정 정보를 변경합니다.
 
 ```
+VUE_APP_NODE_ENV=development
 VUE_APP_PATH=/
 VUE_APP_PUBLIC_PATH=/
-VUE_APP_BASE_URL=http://localhost:8082/your_url
+VUE_APP_BASE_URL=http://localhost:8082
 
 VUE_APP_API=http://localhost:8082/your_url
 ```
